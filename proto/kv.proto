@@ -1,0 +1,6 @@
+syntax = "proto2";
+message kv
+{
+  required string key = 1;
+  required bytes value = 2;
+}
